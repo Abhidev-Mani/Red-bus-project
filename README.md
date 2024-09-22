@@ -26,3 +26,5 @@ Allow users to filter and analyze bus routes based on various criteria, such as 
 
 In Summary:
 the project's goal is to streamline the process of collecting, filtering, and analyzing bus travel data, offering an efficient tool for decision-making and enhancing user experiences in the transportation sector.
+
+![image](https://github.com/user-attachments/assets/8baffc7b-0fa9-4def-ade7-c206ea0ae722)
