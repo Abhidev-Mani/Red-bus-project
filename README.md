@@ -1,10 +1,10 @@
 # Redbus Data Scraping
 This involves using an automated method to extract data from the Redbus website, such as bus routes, schedules, and pricing and store it in a database and using it for Analysis
-# Selenium:
+### Selenium:
 This is a tool used for automating web browsers, which allows users to programmatically interact with a website and extract data
-# SQL:
+### SQL:
 This is a tool used for storing the collected data
-# Streamlit:
+### Streamlit:
 This is a tool used to build an interactive webpage
 Objective of the Project
 
