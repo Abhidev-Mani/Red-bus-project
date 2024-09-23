@@ -93,24 +93,6 @@ else:
         myconnection.close()
         return star_rating
     
-    def get_min_rating():
-        myconnection = get_db_connection()
-        mycursor = myconnection.cursor(pymysql.cursors.SSCursor)
-        mycursor.execute('SELECT MIN(star_rating) FROM bus_routes')  # Get the minimum price directly
-        min_rating = float(mycursor.fetchone()[0])  # Convert to float
-        mycursor.close()
-        myconnection.close()
-        return min_rating
-
-    def get_max_ratinge():
-        myconnection = get_db_connection()
-        mycursor = myconnection.cursor(pymysql.cursors.SSCursor)
-        mycursor.execute('SELECT MAX(star_rating) FROM bus_routes')  # Get the maximum price directly
-        max_ratinge = float(mycursor.fetchone()[0])  # Convert to float
-        mycursor.close()
-        myconnection.close()
-        return max_ratinge
-    
     def get_departing_time():
         myconnection = get_db_connection()
         mycursor=myconnection.cursor(pymysql.cursors.SSCursor)
@@ -128,24 +110,6 @@ else:
         mycursor.close()
         myconnection.close()
         return price
-
-    def get_min_price():
-        myconnection = get_db_connection()
-        mycursor = myconnection.cursor(pymysql.cursors.SSCursor)
-        mycursor.execute('SELECT MIN(price) FROM bus_routes')  # Get the minimum price directly
-        min_price = float(mycursor.fetchone()[0])  # Convert to float
-        mycursor.close()
-        myconnection.close()
-        return min_price
-
-    def get_max_price():
-        myconnection = get_db_connection()
-        mycursor = myconnection.cursor(pymysql.cursors.SSCursor)
-        mycursor.execute('SELECT MAX(price) FROM bus_routes')  # Get the maximum price directly
-        max_price = float(mycursor.fetchone()[0])  # Convert to float
-        mycursor.close()
-        myconnection.close()
-        return max_price
 
     def get_ac_type():
         myconnection = get_db_connection()
