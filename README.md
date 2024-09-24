@@ -1,32 +1,43 @@
-# Redbus Data Scraping
-This involves using an automated method to extract data from the Redbus website, such as bus routes, schedules, and pricing and store it in a database and using it for Analysis
-### Selenium:
-This is a tool used for automating web browsers, which allows users to programmatically interact with a website and extract data
-### SQL:
-This is a tool used for storing the collected data
-### Streamlit:
-This is a tool used to build an interactive webpage
-Objective of the Project
+# Redbus Data Scraping with Selenium & Dynamic Filtering using Streamlit
+Here’s a quick summary of the key components and their functionality:
 
-Automate the collection of bus travel data from the Redbus website using Selenium. This includes gathering detailed information such as:
-* Bus routes
-* Rating
-* Schedules
-* Ticket prices
-* Seat availability
+### Key Skills
+* Web Scraping: Using Selenium to collect live bus data from the Redbus website.
+* Python & SQL: Handling the scraped data, storing it in an SQL database for easy management.
+* Streamlit: Building an interactive web application to visualize and filter the bus data.
 
-Store the scraped data in a structured SQL database, making it easier to access, manage, and analyze.
+### Problem Overview
+* Automate data extraction from Redbus for government and private buses.
+* Store the scraped data (bus routes, schedules, prices, seat availability, etc.) in a SQL database.
+* Provide an interactive Streamlit application for users to filter and analyze the data.
 
-Develop a user-friendly Streamlit application to:
+### Use Cases
+* Travel Aggregators: Real-time schedules and seat availability.
+* Market Analysis: Travel patterns for market research.
+* Customer Service: Tailored travel options.
+* Competitor Analysis: Pricing and service comparison.
 
-Display the collected data in an interactive interface.
+### Data Scraping Process
+* Routes: Extract routes and corresponding details from Redbus using Selenium.
+* Buses: Extract bus-specific details (e.g., departure time, rating, price) after collecting route information.
 
-Allow users to filter and analyze bus routes based on various criteria, such as bus type, route, price, ratings, and seat availability.
+### SQL Database Schema
+The database schema covers essential fields like:
+* Route name, bus type, price, and seat availability, along with an auto-incrementing primary key for efficient data management.
 
+### Streamlit Application Features
+* The web app lets users filter buses based on criteria like bus type, route, price, ratings, and seat availability.
+* You offer an intuitive interface with dropdowns, sliders, and radio buttons to streamline user interaction.
 
-In Summary:
-the project's goal is to streamline the process of collecting, filtering, and analyzing bus travel data, offering an efficient tool for decision-making and enhancing user experiences in the transportation sector.
+### Filters and SQL Queries
+The application efficiently queries the SQL database using user inputs:
+* Filter buses based on the state, route, price range, star ratings, AC/non-AC type, and seat type.
+* The SQL queries are dynamically generated based on the selected filters to fetch relevant data.
 
+### In Summary:
+This project offers a strong mix of web scraping, database management, and interactive web applications, making it highly impactful for the transportation sector.
+
+### Overview of the webpage
 Home Page :  ![image](https://github.com/user-attachments/assets/8baffc7b-0fa9-4def-ade7-c206ea0ae722) ,  
 Next Page :  ![image](https://github.com/user-attachments/assets/b4198d4f-6acd-48c6-9763-ee1ee5d19425)
 
