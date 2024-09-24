@@ -27,7 +27,7 @@ The database schema covers essential fields like:
 
 ### Streamlit Application Features
 * The web app lets users filter buses based on criteria like bus type, route, price, ratings, and seat availability.
-* You offer an intuitive interface with dropdowns, sliders, and radio buttons to streamline user interaction.
+* The webpage offer an intuitive interface with dropdowns, sliders, and radio buttons to streamline user interaction.
 
 ### Filters and SQL Queries
 The application efficiently queries the SQL database using user inputs:
